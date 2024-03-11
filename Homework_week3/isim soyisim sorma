@@ -1,0 +1,24 @@
+package adsoyad;
+import java.util.Scanner;
+
+public class Isımsoyisim {
+public static void main(String[] args) {
+	
+	
+	
+	Scanner yazi = new Scanner(System.in);
+	System.out.print("isim gir : ");
+	String isim = yazi.nextLine();
+	
+	System.out.print("soyisim gir : ");
+	String soyisim = yazi.nextLine();
+	
+	
+	System.out.print("adin : ");
+	System.out.println(isim);
+	
+	System.out.print("soyadin : ");
+	System.out.println(soyisim);
+	
+}
+}
