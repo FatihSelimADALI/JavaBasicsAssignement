@@ -1,0 +1,26 @@
+package forörnek;
+import java.util.Scanner;
+public class Forornekbir {
+	
+	//fatih selim ADALI
+
+	public static void main(String[] args) {
+		
+		   Scanner deger = new Scanner(System.in);
+		 
+             int a;
+	        System.out.print("Bir sayı girin: ");
+	        a = deger.nextInt();
+
+	        if (a < 100) {
+	            for (int i = a; i >= 0; i--) {
+	                System.out.println(i);
+	            }
+	        } else {
+	            System.out.println("giriğiniz sayi 100den buyuk");
+	        }
+	}
+		
+		
+	
+}
