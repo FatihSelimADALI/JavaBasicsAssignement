@@ -1,0 +1,55 @@
+package notokuma;
+import java.util.Scanner;
+public class Notokumagecmekalma {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner deger = new Scanner(System.in);
+		
+		double n,m,f,d,y,t,ort;
+		
+		
+		
+		
+		
+		System.out.print("Nesne Dayalı Programlama notu gir : ");
+		n = deger.nextInt();
+		
+		System.out.print("MATEMATİK ||  notu gir : ");
+		m = deger.nextInt();
+
+	
+		System.out.print("FİZİK ||  notu gir : ");
+		f = deger.nextInt();
+
+		
+		System.out.print("DEVRE ANALİZİ notu gir : ");
+		d = deger.nextInt();
+
+		
+		System.out.print("TÜRK DİLİ EDEBİYATI ||  notu gir : ");
+		t = deger.nextInt();
+
+		
+		System.out.print("YABANCI DİL ||  notu gir : ");
+		y = deger.nextInt();
+
+		ort=(n+m+f+d+t+y)/5;
+		System.out.println(ort);
+		
+	
+		
+		  switch((int)ort / 50) {
+          case 0:
+              System.out.print("ortalama " +ort+ " olduğundan kaldı ");
+              break;
+          default:
+              System.out.print("ortalama " +ort+ " olduğundan geçti ");
+              break;
+      }
+		
+		
+	}
+
+}
