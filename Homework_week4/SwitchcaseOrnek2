@@ -1,0 +1,102 @@
+package switchcaseornek;
+import java.util.Scanner;
+public class Switchcaseornekdevam {
+//fatih selim ADALI
+
+	public static void main(String[] args) {
+		
+		
+		Scanner deger = new Scanner(System.in);
+		
+		
+		int gun,ay,yıl;
+		
+		int sgun ,say ,syıl;
+		
+		int a,b,c;
+		
+		
+		
+	System.out.print("oldugunuz gunu girin : ");
+		
+		sgun = deger.nextInt();
+		
+		System.out.print("oldugunuz ayini  giriniz : ");
+		
+		say = deger.nextInt();
+		
+		System.out.print("oldugunuz yılı  giriniz : ");
+		
+		syıl = deger.nextInt();
+		
+		
+		
+		
+		
+		
+		
+		System.out.print("dogum gününü  giriniz : ");
+		
+		gun = deger.nextInt();
+		
+		System.out.print("dogum ayini  giriniz : ");
+		
+		ay = deger.nextInt();
+		
+		System.out.print("dogum yılını  giriniz : ");
+		
+		yıl = deger.nextInt();
+		
+		a = yıl-syıl;
+		b = ay-say;
+		c = gun-sgun;
+		
+		System.out.println("yıl "+a+" ay "+b+" gun "+c);
+		
+		
+		
+		switch(a) {
+		case 0 :
+			System.out.print("0 yeni dogmus");
+			break;
+			
+		case 1 :
+			System.out.print("1 yasında ");
+			break;
+			
+			
+		case  5 :
+			System.out.print("5 yasında ");
+			break;
+			
+			
+		case  10 :
+			System.out.print("okula baslıyo");
+			break;
+			
+			
+		case 15 :
+			System.out.print("liseli");
+			break;
+			
+			
+			
+			
+		case 20 :
+				System.out.print("universite ");
+				break;
+				
+				
+				
+				
+				default:
+					System.out.print("yaslısınız");
+					break;
+		}
+		
+		
+	}
+		
+		
+	
+}
